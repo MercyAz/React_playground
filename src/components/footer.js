@@ -1,5 +1,9 @@
-<footer>This is the footer
-    <p>&copy Made with Love</p>
-</footer>
+function Footer(props) {
+  return (
+    <footer>
+      <p>&copy; 2023 - {props.title}</p>
+    </footer>
+  )
+}
 
-module.export
+export default Footer;
