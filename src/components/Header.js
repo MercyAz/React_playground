@@ -1,6 +1,9 @@
-<header>
-    <h1>Logo</h1>
-    <p>This is an introductory paragraph</p>
-</header>
+function Header(props) {
+  return (
+    <header>
+      <h3>{props.title}</h3>
+    </header>
+  )
+}
 
-export default Header
+export default Header;
